@@ -1,0 +1,51 @@
+Question 1:-
+
+list=[2, 3, 5, 7, 8]
+def sum(l):
+    total = 0
+    for x in l:
+        total += x
+    return total
+print(f"list is {list}") 
+print(f"Sum of all the numbers of list is {sum(list)}")
+
+
+
+Question 2:-
+
+dict1={'id1':'Ankur', 'id2':'Priya', 'id3':'Deepak', 'id4':'deva'}
+dict2={'id1': 50,'id2': 60, 'id3':85,'id4':90}
+
+def maximum(d):
+    keymax={max(dict2.items())} 
+    new=dict(keymax)
+    print(new)
+maximum(dict2)
+
+
+
+
+Question 3:-
+
+list=[0,0,1,0,1,1,1,0,0,1,1,1,1,1,0,0,0,0,]
+countvalue=0
+maxValue=0
+
+for i in range(len(list)):
+
+    if list[i]==1:
+       countvalue=countvalue+1
+    else:
+       countvalue=0
+    if countvalue>maxValue:
+       maxValue=countvalue
+    
+print(maxValue)
+
+
+
+Question 4:-
+
+Create table User(User_name varchar(20),Password varchar(20));
+
+Create table Address(Street varchar(20),Pin_Code int(6),Country varchar(20),State varchar(20),Phone_Number int(10));
